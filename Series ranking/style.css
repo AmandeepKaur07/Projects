@@ -6,6 +6,7 @@ ol{
 
 body{
     background-color: aliceblue;
+    text-align: center;
 }
 
 h1{
@@ -22,5 +23,3 @@ p{
     font-size: 20px;
     font-style: oblique;
 }
-
-
