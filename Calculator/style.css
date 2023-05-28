@@ -4,7 +4,7 @@
     font-family: 'poppins', sans-serif;
  }
  body{
-    background-color: #495250;
+    background-color: paleturquoise;
     display: grid;
     height: 100vh;
     place-items: center;
@@ -48,6 +48,6 @@
     color: white;
  }
  .btn input[type='button']:hover{
-    background-color: black;
+    background-color: pink;
     color: white;
  }
