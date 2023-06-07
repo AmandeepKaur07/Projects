@@ -11,7 +11,7 @@ function Solve(val) {
     var inp = document.getElementById('res');
     inp.value = '';
  }
- 
+
  function Back() {
     var ev = document.getElementById('res');
     ev.value = ev.value.slice(0,-1);
