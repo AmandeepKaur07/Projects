@@ -12,9 +12,8 @@ async function getWeatherByLocation(city){
          const resp = await fetch(url(city), {
              origin: "cros" });
          const respData = await resp.json();
-     
+
            addWeatherToPage(respData);
-          
      }
       function addWeatherToPage(data){
           const temp = Ktoc(data.main.temp);
