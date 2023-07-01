@@ -16,7 +16,6 @@ async function getWeatherByLocation(city){
            addWeatherToPage(respData);
           
      }
-
       function addWeatherToPage(data){
           const temp = Ktoc(data.main.temp);
 
@@ -28,20 +27,12 @@ async function getWeatherByLocation(city){
           <small>${data.weather[0].main}</small>
           
           `;
-
-
-        //   cleanup 
           main.innerHTML= "";
            main.appendChild(weather);
       };
-
-
      function Ktoc(K){
          return Math.floor(K - 273.15);
      }
-
-
-
      form.addEventListener('submit',(e) =>{
         e.preventDefault();
 
