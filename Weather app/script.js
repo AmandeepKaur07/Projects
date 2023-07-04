@@ -40,5 +40,4 @@ async function getWeatherByLocation(city){
         if(city){
             getWeatherByLocation(city)
         }
-
      });
