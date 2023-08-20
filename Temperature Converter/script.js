@@ -36,7 +36,6 @@ function convertTemprature() {
     } else if (inputValue === "kelvin" && outputValue === "kelvin") {
       result.value = val.value;
     }
-    
   }
   
   function resetForm(){
