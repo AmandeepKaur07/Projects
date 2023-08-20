@@ -18,7 +18,7 @@ function convertTemprature() {
     } else if (inputValue === "celsius" && outputValue === "celsius") {
       result.value = val.value;
     }
-    
+
     
     if (inputValue === "fahrenhiet" && outputValue === "celsius") {
       result.value = Number((val.value - 32) * 5) / 9;
@@ -28,6 +28,7 @@ function convertTemprature() {
       result.value = val.value;
     }
   
+    
     if (inputValue === "kelvin" && outputValue === "celsius") {
       result.value = Number(val.value) - 273.15;
     } else if (inputValue === "kelvin" && outputValue === "fahrenhiet") {
