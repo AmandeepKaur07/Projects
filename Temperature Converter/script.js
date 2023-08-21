@@ -1,12 +1,12 @@
-function convertTemprature() {
+function convertTemperature() {
     let val = document.getElementById("input-value");
     let result = document.getElementById("result");
     let input = document.getElementById("input");
     let output = document.getElementById("output");
   
-    val.addEventListener("keyup", convertTemprature);
-    input.addEventListener("change", convertTemprature);
-    output.addEventListener("change", convertTemprature);
+    val.addEventListener("keyup", convertTemperature);
+    input.addEventListener("change", convertTemperature);
+    output.addEventListener("change", convertTemperature);
   
     let inputValue = input.value;
     let outputValue = output.value;
