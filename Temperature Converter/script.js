@@ -19,7 +19,7 @@ function convertTemperature() {
       result.value = val.value;
     }
 
-    
+  
     if (inputValue === "fahrenhiet" && outputValue === "celsius") {
       result.value = Number((val.value - 32) * 5) / 9;
     } else if (inputValue === "fahrenhiet" && outputValue === "kelvin") {
