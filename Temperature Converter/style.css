@@ -99,7 +99,6 @@ body{
     display: flex;
     justify-content: space-between;
 }
-
 .btn input{
     font-size: 16px;
     background-color: #6c7dfa;
