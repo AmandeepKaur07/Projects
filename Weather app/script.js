@@ -32,7 +32,6 @@ async function getWeatherByLocation(city){
         e.preventDefault();
 
         const city = search.value;
-
         if(city){
             getWeatherByLocation(city)
         }
