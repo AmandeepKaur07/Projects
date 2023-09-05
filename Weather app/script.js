@@ -24,7 +24,7 @@ async function getWeatherByLocation(city){
           `;
           main.innerHTML= "";
            main.appendChild(weather);
-      };
+    };
      function Ktoc(K){
          return Math.floor(K - 273.15);
      }
