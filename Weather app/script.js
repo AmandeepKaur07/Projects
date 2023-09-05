@@ -3,7 +3,6 @@ const apiKey = "f98086a8a54a077485eec936a6064391";
 const main = document.getElementById('main');
 const form = document.getElementById('form');
 const search = document.getElementById('search');
-  
 const url = (city)=> `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}`;
 async function getWeatherByLocation(city){
      
