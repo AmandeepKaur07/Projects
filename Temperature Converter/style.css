@@ -131,6 +131,7 @@ body{
     padding: 10px 0;
     flex-basis: 25%;
 }
+
 .temp-value #result{
     width: 100%;
     border: 0;
