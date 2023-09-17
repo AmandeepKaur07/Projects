@@ -1,12 +1,11 @@
 {
   "dependencies": {
-    "inquirer": "^9.2.10",
+    "inquirer": "^9.2.11",
     "qr-image": "^3.2.0"
   },
   "name": "projects",
   "version": "1.0.0",
   "main": "index.js",
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
