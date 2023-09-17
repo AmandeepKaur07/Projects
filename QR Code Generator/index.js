@@ -9,7 +9,7 @@ inquirer
       name: "URL",
     },
   ])
-  
+
   .then((answers) => {
     const url = answers.URL;
     var qr_svg = qr.image(url);
@@ -20,6 +20,7 @@ inquirer
       console.log("The file has been saved!");
     });
   })
+  
   .catch((error) => {
     if (error.isTtyError) {
       
